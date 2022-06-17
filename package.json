@@ -23,7 +23,7 @@
   "devDependencies": {
     "coffeelint": "^2.1.0",
     "coffeescript": "^2.5.1",
-    "electron": "^9.4.0",
+    "electron": "^15.5.5",
     "mocha": "^7.1.0"
   },
   "dependencies": {
