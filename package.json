@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/egee-irl/messy-drawer#readme",
   "devDependencies": {
-    "coffeelint": "^2.1.0",
+    "coffeelint": "^1.4.1",
     "coffeescript": "^2.5.1",
-    "electron": "^9.4.0",
+    "electron": "^20.0.0",
     "mocha": "^7.1.0"
   },
   "dependencies": {
