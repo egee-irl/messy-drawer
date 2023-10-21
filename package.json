@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "coffeelint": "^1.4.1",
-    "coffeescript": "^2.5.1"
+    "coffeescript": "^2.5.1",
+    "mocha": "^10.2.0"
   }
 }
