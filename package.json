@@ -5,28 +5,25 @@
   "main": "index.js",
   "scripts": {
     "start": "cd ./dist && ../node_modules/.bin/electron .",
-    "restart": "npm run build && npm start",
     "build": "./node_modules/.bin/cake build",
-    "clean": "./node_modules/.bin/cake clean",
-    "test": "npm run build && ./node_modules/mocha/bin/mocha --require coffeescript/register test/**/*.coffee"
+    "clean": "./node_modules/.bin/cake clean"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/egee-irl/messy-drawer.git"
+    "url": "git+https://github.com/egeexyz/messy-drawer.git"
   },
-  "author": "brian",
+  "author": "Egee",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/egee-irl/messy-drawer/issues"
+    "url": "https://github.com/egeexyz/messy-drawer/issues"
   },
-  "homepage": "https://github.com/egee-irl/messy-drawer#readme",
+  "homepage": "https://github.com/egeexyz/messy-drawer#readme",
+  "dependencies": {
+    "electron": "^20.1.0",
+    "xel": "0.0.215"
+  },
   "devDependencies": {
     "coffeelint": "^1.4.1",
-    "coffeescript": "^2.5.1",
-    "electron": "^20.1.0",
-    "mocha": "^7.1.0"
-  },
-  "dependencies": {
-    "xel": "0.0.215"
+    "coffeescript": "^2.5.1"
   }
 }
