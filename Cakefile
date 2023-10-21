@@ -1,4 +1,4 @@
-{ exec, spawn } = require 'child_process'
+{ exec } = require 'child_process'
 
 build = () ->
   exec 'coffee --compile --output dist/ src/'
