@@ -4,9 +4,10 @@
   "description": "🗄️ A vintage style app launcher",
   "main": "index.js",
   "scripts": {
-    "start": "cd ./dist && ../node_modules/.bin/electron .",
     "build": "./node_modules/.bin/cake build",
-    "clean": "./node_modules/.bin/cake clean"
+    "clean": "./node_modules/.bin/cake clean",
+    "start": "cd ./dist && ../node_modules/.bin/electron .",
+    "test": "./node_modules/mocha/bin/mocha test/**/*.js"
   },
   "repository": {
     "type": "git",
